@@ -1,0 +1,17 @@
+body{
+  background: #02010e;
+  margin: 0 33.333%;
+}
+a{
+  color: #d4d1c6;
+}
+h1{
+  color: #d2f9cc;
+}
+p{
+  width: 500px;
+  color: #d2f3e4;
+  text-align: justify;
+  text-indent: 30px;
+  line-height: 15px;
+}

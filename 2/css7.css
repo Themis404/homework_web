@@ -1,0 +1,44 @@
+body{
+  background: #55607d;
+  margin: 0 23%;
+}
+a{
+  color: #d4d1c6;
+}
+div{
+  width: auto;
+  height: auto;
+  padding: 20px 100px;
+  background-color: #ffffff;
+}
+h1{
+  font-family: "Garamond";
+  color: #3a83df;
+  text-shadow: #091a1cd4 2px 2px 3px;
+  margin: 0;
+}
+h2{
+  color: #3a83df;
+  font-family: "Garamond";
+}
+p{
+  color: #624f46;
+  font-family: "Verdana";
+  font-size: 14px;
+}
+p#p1{
+  font-family: "Lucida Console";
+  text-transform: uppercase;
+  color: #3a83df;
+}
+p#p2::first-line{
+  font-weight: bold;
+}
+span#p2_1{
+  color: #3a83df;
+  font-weight: normal;
+}
+p#p4{
+  text-align: right;
+  font-family: "Tahoma";
+}

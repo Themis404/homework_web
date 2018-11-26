@@ -1,0 +1,30 @@
+body{
+  padding-top: 40px;
+  background: #ffffff;
+  margin: 0 auto;
+  width: 550px;
+}
+a{
+  color: #d4d1c6;
+}
+p{
+  margin-top: 10px;
+}
+div{
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+div#kv1{
+  background-color: #000000;
+  margin-right: 8px;
+  margin-top: 30px;
+}
+div#kv2{
+  background-color: #457bd8;
+  margin-right: 8px;
+  margin-top: 30px;
+}
+#kv1,#kv2:hover{
+  background-color: #f9a42d;
+}

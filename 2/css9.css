@@ -1,0 +1,32 @@
+body{
+  background: #ffffff;
+  margin: 0 auto;
+  width: 600px;
+}
+a{
+  color: #d4d1c6;
+}
+p{
+  width: auto;
+  height: auto;
+  padding: 10px;
+  position: relative;
+  font-size: 20px;
+}
+p#p1{
+  color: white;
+  background-color: #17906d;
+  z-index: 1;
+}
+p#p2{
+  color: black;
+  background-color: #9fbfb8;
+  z-index: 2;
+  top: -30px;
+  margin-right: 0;
+  margin-left: auto;
+  width: 500px;
+}
+div{
+
+}

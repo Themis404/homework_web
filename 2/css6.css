@@ -1,0 +1,39 @@
+body{
+  background: #615f71;
+  margin: 0 33.333%;
+}
+h1{
+  color: #fdd8fa8c
+}
+a{
+  color: #d4d1c6;
+}
+p{
+  margin: 0;
+}
+p#p1{
+  background-color: #ffffff85;
+  color: #36363a;
+  padding: 5%;
+}
+p#p2{
+  background-color: #36363a85;
+  height: auto;
+  color: #94cdd0;
+  padding: 5%;
+}
+p#p3{
+  background-color: #d874ad6b;
+  height: auto;
+  width: 150px;
+  float: right;
+  margin-top: 5%;
+  margin-right: 5%;
+  padding: 5%;
+  font-size: 18px;
+  color: #631748;
+}
+#img1{
+  height: 190px;
+  width: inherit;
+}

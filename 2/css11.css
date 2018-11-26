@@ -1,0 +1,25 @@
+body{
+  padding-top: 40px;
+  background: #ffffff;
+  margin: 0 auto;
+  width: 33.333%;
+}
+a{
+  color: #d4d1c6;
+}
+p{
+  padding-top: 40px;
+  margin: 0;
+  color: #3e6ec2;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Tahoma';
+}
+div{
+  margin: 20px;
+  width: 400px;
+  height: 100px;
+  background-color: #9ab7e9;
+  border: 5px solid #3e6ec2;
+  border-radius: 0 30px 0 30px;
+}

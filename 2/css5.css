@@ -1,0 +1,31 @@
+body{
+  background: #345268;
+  margin: 0 33.333%;
+}
+h1{
+  color: #fdd8fa8c
+}
+a{
+  color: #d4d1c6;
+}
+table{
+  width: 100%;
+  margin-top: 20%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+td#td1{
+  background-color: #e00000;
+  margin: auto;
+  color: #fff;
+}
+td#td2{
+  background-color: #ec8758;
+  margin: auto;
+  color: #595757;
+}
+td#td3{
+  background-color: #ffe44e;
+  margin: auto;
+  color: #000;
+}
