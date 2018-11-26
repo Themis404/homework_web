@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>web</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div align='center'>
+			<a href='web1.html'>Задание 1</a>
+			<a href='web2.html'>Задание 2</a>
+			<a>Задание 3</a>
+			<a href='web4.html'>Задание 4</a>
+			<h4>Задание №3<h4>
+			<form>
+				<h3>Информация о книге</h3>
+				<h4>Автор</h4>
+				<input pattern='^[A-Za-zА-Яа-яЁё\s]+$' placeholder='ФИО'/>
+				<h4>Название</h4>
+				<input pattern='^[A-Za-zА-Яа-яЁё\s]+$' placeholder='Название'/>
+				<h4>Издательство</h4>
+				<input pattern='^[A-Za-zА-Яа-яЁё\s]+$' placeholder='Издательство'/>
+				<h4>Город</h4>
+				<input pattern='^[A-Za-zА-Яа-яЁё\s]+$' placeholder='Город'/>
+				<h4>Год</h4>
+				<input pattern='[0-9]{4}' placeholder='****'/>
+				<h4>Кол-во</h4>
+				<input pattern='^[ 0-9]+$' placeholder='****'/>
+				<h4>Раздел библиотеки</h4>
+				<select>
+					<option></option>
+					<option>Худ. лит-ра</option>
+					<option>Дом. хоз-во</option>
+					<option>И тд.</option>
+				</select>
+				<h4>Наличие в данный момент</h4>
+				<input type='radio' value='Имеется' name='Наличие'/>Имеется
+				<input type='radio' value='Отсутствует' name='Наличие'/>Отсутствует
+				<h4>Субъективная оценка книги</h4>
+				<input pattern='^[ 1-10]' placeholder='Оценка 1-10'/><br>
+				<br><input type='submit' value='Submit'>
+				<input type='reset' value='Update'>
+			</form>
+		</div>
+	</body>
+</html>
