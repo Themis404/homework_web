@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+body{
+    width: 950px;
+    margin: 0 auto;
+}
+nav{
+    width: 950px;
+    height: 40px;
+    background: #4682B4;
+}
+nav::before{
+    content: '';
+    width: 100%;
+    height: 40px;
+    background: #4682B4;
+    z-index: -1;
+    display: block;
+    position: absolute;
+    left: 0;
+}
+nav ul{
+    text-align: center;
+    width: inherit;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 40px;
+    position: relative;
+    z-index: 2;
+}
+nav ul li{
+    height: 40px;
+    width: 120px;
+    line-height: 40px;
+    background: #4682B4;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+}
+nav li > ul{
+    width: 120px;
+    top: 40px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+    display: none;
+}
+nav li > ul li{
+    width: inherit;
+    height: inherit;
+    line-height: 40px;
+    font-size: 12px;
+    color: #ffffff;
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    z-index: -1;
+}
+li :hover{
+    background: rgb(45, 101, 146);
+}
+ul :hover{
+    background: rgb(49, 110, 160);
+}

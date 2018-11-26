@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WEB_LAB</title>
+        <meta charset="utf-8">
+        <script src='jquery-3.3.1.min.js'></script>
+    </head>
+    <body>
+        <h5>Введите И.Ф.</h5>
+        <input  
+            placeholder='Введите имя'
+            type='text' 
+            id='name'
+        />
+        <br/>
+        <input  
+            placeholder='Введите фамилию' 
+            type='text' 
+            id='lastname'
+        />
+        <h5>Введите дату рождения</h5>
+        <input 
+            type='date' 
+            id='age'
+        />
+        <h5>Выберите пол</h5>
+        <input  
+            type='radio' 
+            id='male' 
+            name='gender' 
+            value='male'
+        />М
+        <input  
+            type='radio' 
+            id='female' 
+            name='gender' 
+            value='female'
+        />Ж
+        <button onclick='addPerson()'>Создать</button>
+        <pre id='info'></pre>
+    </body>
+    <script src='1.js'></script>
+</html>
