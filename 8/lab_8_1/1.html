@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <form action="action.php" method="POST" enctype="multipart/form-data">
+        <p>Ваш отзыв о наших услугах</p>
+        <p>Ваше имя: <input type="text" name="name_info" required /></p>
+        <p>Ваш возраст: 
+            <select name='age' required>
+                <option selected value="Менее 20">Менее 20</option>
+                <option value="20">20</option>
+                <option value="Более 20">Более 20</option>
+            </select>
+        </p>
+        <p>Ваш пол: 
+            M <input type="radio" name="gender" value="М" required/> 
+            Ж <input type="radio" name="gender" value="Ж" required/></p>
+        <p>Ваши интересы: 
+                Компьютеры <input type="checkbox" name="computer" value="Компьютеры "/> 
+                Спорт <input type="checkbox" name="sport" value="Спорт "/></p>
+                Искусство <input type="checkbox" name="art" value="Искусство "/> 
+                Наука <input type="checkbox" name="science" value="Наука "/></p>
+        <p>Ваше мнение: <textarea  type="text" name="feedback" rows="4" required></textarea></p>
+        <p>Загрузите файл: <input type="file" name="file_name" required/></p>
+        <p>E-mail: <input type="text" name="mail" required/></p>
+        <p><input type="submit" /><input type="reset" /></p>
+    </form>
+</body>
+</html>
+

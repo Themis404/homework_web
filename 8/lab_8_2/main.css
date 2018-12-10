@@ -1,0 +1,23 @@
+body{
+    width: 600px;
+    margin: 0 auto;
+}
+form{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+input{
+    width: 200px;
+}
+.btn{
+    width: 150px;
+    margin: 10px 25%;
+}
+.input-group{
+    margin-top: 10px; 
+}
+.checkin{
+    background: url('sky.gif') no-repeat;
+    background-size: auto 100%;
+}
